@@ -10,8 +10,8 @@ package model;
  */
 public class Usuario {
     private long id;
-    private String usuario;
-    private String contra;
+    private String username;
+    private String password;
 
     public Usuario(){
     
@@ -24,18 +24,18 @@ public class Usuario {
         this.id = id; 
     }
 
-    public String getUsuario(){ 
-        return usuario; 
+    public String getUsername(){ 
+        return username; 
     }
-    public void setUsuario(String usuario){ 
-        this.usuario = usuario; 
+    public void setUsername(String username){ 
+        this.username = username; 
     }
 
-    public String getContra(){ 
-        return contra; 
+    public String getPassword(){ 
+        return password; 
     }
-    public void setContra(String contra){ 
-        this.contra = contra; 
+    public void setPassword(String password){ 
+        this.password = password; 
     }
     
 }
